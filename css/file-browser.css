@@ -1,0 +1,96 @@
+/*! file-browser - v1.0.0 - 2018-09-02 */
+*:focus {
+	outline: none;
+}
+
+.container {
+	height: 90vh;
+	padding: 40px;
+}
+
+.sidebar {
+	width: 29%;
+	border: 1px solid lightgray;
+	height: 100%;
+	float: left;
+}
+
+.header {
+	color: blue;
+}
+
+.sidebar .sidebar-content {
+	max-height: 100%;
+    overflow: scroll;
+}
+
+.content {
+	width: 69%;
+	border: 1px solid lightgray;
+	height: 100%;
+	float: right;
+}
+
+.fa-folder, .fa-folder-open {
+	color: gold;
+	margin-right: 5px;
+}
+
+.fa-file-alt {
+	color: lightskyblue;
+	margin-right: 5px;
+}
+
+.file-name {
+	color: gray;
+}
+
+.align-center {
+	text-align: center;
+}
+
+button {
+	padding: 6px;
+	font-size: 13px;
+}
+
+input {
+	padding: 6px;
+}
+
+.folder-name {
+	font-weight: bold;
+}
+
+.content .folder-detail-view {
+	padding: 10px;
+}
+
+.content .folder-detail-view .add-row {
+	margin-top: 20px;
+}
+
+.content .folder-detail-view .add-row-item {
+	margin-left: 20px;
+}
+
+.sidebar li {
+	margin-top: 10px;
+	cursor: pointer;
+	list-style-type: none;
+}
+
+folder-list table {
+	width: 100%;
+}
+
+folder-list table tr {
+	text-align: left;
+}
+
+folder-list table td, folder-list table th {
+	border-bottom: 1px solid lightgray;
+    padding: 8px;
+}
+
+/*# sourceMappingURL=file-browser.css.map */
